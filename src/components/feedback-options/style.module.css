@@ -1,0 +1,24 @@
+.btn {
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-right: 14px;
+  font-weight: 700;
+}
+.btn:hover:nth-child(1) {
+  background-color: rgb(151, 249, 151);
+  transform: scale(1.05);
+  box-shadow: 6px 8px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.btn:hover:nth-child(2) {
+  background-color: rgb(249, 245, 129);
+  transform: scale(1.05);
+  box-shadow: 6px 8px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.btn:hover:nth-child(3) {
+  background-color: rgb(249, 129, 129);
+  transform: scale(1.05);
+  box-shadow: 6px 8px 8px 2px rgba(0, 0, 0, 0.3);
+}
